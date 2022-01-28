@@ -1,0 +1,116 @@
+body {
+    background-color:#0c192c ;
+    width: 100vw;
+    height: 90vh;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    width: 15%;
+    height: 75%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    background-color: #15273f;
+    border-radius: 4%;
+}
+
+.nft_img{
+    width: 100%;
+    border-radius: 4%;
+}
+
+.nft_ico{
+    display: none;
+}
+
+.nft_title{
+    font-family: 'Outfit_SemiBold', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.nft_title:hover{
+    font-family: 'Outfit_SemiBold', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+
+
+.nft_text{
+    text-align: start;
+    margin-top: 10%;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.1rem;
+    font-family: "Outfit_Light", sans-serif;
+    line-height: 1.7;
+}
+
+.nft_details{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 5%;
+
+}
+.eth_price{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit_Regular', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-left: 3%;
+}
+
+.nft_day{
+    display: flex;
+    align-items: center;
+    padding-left: 22%;
+    font-family: 'Outfit_Regular', sans-serif;
+    font-size: 0.9rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: bold;
+}
+.nft_day img {
+    padding-right: 1%;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.author a {
+text-decoration: none;
+color: white;
+}
+
+.author a:hover {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+    }
+.nft_author{
+    padding-left: 8%;
+    color: hsl(215, 51%, 70%);
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+.author img {
+width: 12%;
+height: 10%;
+border: 1px solid white;
+border-radius: 50%;
+}
